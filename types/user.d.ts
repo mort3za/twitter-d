@@ -32,4 +32,4 @@ export interface TrimmedUser {
   id: number;
 }
 
-export type User = TrimmedUser | FullUser;
+export type User = FullUser;
